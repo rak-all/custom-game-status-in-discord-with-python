@@ -21,7 +21,7 @@
 ---
 
 ### Крок 4:
-#### Получіть client id
+#### Отримайте client id
 ![img](https://i.imgur.com/J4ajeya.png)
 
 ---
@@ -48,8 +48,8 @@ buttons = [  # maximum 2 buttons
 
 presence.connect()  # підключення
 presence.update(  # перший рядок у статусі - назва програми
-    state="status",  # тдругий рядок за статусом
-    start=time(),  # таймер запуску
+    state="status",  # другий рядок за статусом
+    start=time(),  # таймер запуску(пише час від поочатку активності)
     buttons=buttons,  # підключення кнопок
     large_image="img_1",  # велике зображення, введіть його назву з кроку 2 в large_image
     small_image="img_2",  # маленьке зображення, введіть його назву з кроку 2 в small_image
